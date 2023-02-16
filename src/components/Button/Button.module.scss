@@ -1,0 +1,32 @@
+.button {
+  padding: 8px 8px 8px 16px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+%purple {
+  background-color: #5445FF;
+  color: #fff;
+}
+
+.default {
+  @extend %purple;
+}
+
+.standard {
+  padding-right: 16px;
+}
+
+.wide {
+  width: 100%;
+  @extend %purple;
+}
+
+.primary {
+  @extend %purple;
+}
