@@ -1,6 +1,6 @@
 import { Button } from './components/Button/Button';
 import { Text } from './components/Text/Text';
-import { CardSmall } from './components/CardSmall/CardSmall';
+import { Card } from './components/Card/Card';
 import { MainPage } from './pages/Main/MainPage';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     //   <Text>Звонков</Text>
     //   <Text size='S'>Смотреть все</Text>
     //   <Button view='wide'><Text size='S'>Смотреть все</Text></Button>
-    //   <CardSmall list={arr} count={46} headling={'Групп всего'} />
+    //   <Card list={arr} count={46} headling={'Групп всего'} />
     // </>
     <MainPage />
   )
