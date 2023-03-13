@@ -1,6 +1,7 @@
 import { DetailedHTMLProps, HTMLAttributes, ReactNode } from 'react';
 
 export interface TextProps extends DetailedHTMLProps<HTMLAttributes<HTMLParagraphElement>, HTMLParagraphElement> {
-  size?: 'XL' | 'L' | 'M' | 'S';
+  size?: 'L' | 'M' | 'S';
+  isDark?: boolean;
   children: ReactNode; 
 }

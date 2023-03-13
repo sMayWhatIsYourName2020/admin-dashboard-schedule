@@ -6,8 +6,40 @@
 
 body {
   background-color: #F8F8F8;
+  max-width: 1620px;
+  padding: 150px 15px 0 15px;
+  margin: 0 auto;
 }
 
-.dmolc {
-  font-size: 100px;
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+.w-138 {
+  width: 138px;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+li {
+  list-style-type: none;
 }

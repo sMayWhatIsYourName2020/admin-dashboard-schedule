@@ -3,6 +3,9 @@
   border: none;
   outline: none;
   border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
 }
 
 .button:hover {
@@ -15,7 +18,7 @@
 }
 
 .default {
-  @extend %purple;
+  border: 1px solid #E8E8E8;
 }
 
 .standard {
