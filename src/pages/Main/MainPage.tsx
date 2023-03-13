@@ -1,7 +1,7 @@
 import { MainPageProps } from "./MainPage.props";
 import styles from "./MainPage.module.scss";
 import { Text } from "../../components/Text/Text";
-import { Card } from "../../components/Card0/Card";
+import { Card } from "../../components/Card/Card";
 
 export const MainPage = (props: MainPageProps): JSX.Element => {
   const arr1: Array<string> = ['1 курс', '2 курс', '3 курс', '4 курс', '5 курс'];

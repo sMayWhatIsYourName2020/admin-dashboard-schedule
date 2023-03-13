@@ -14,7 +14,7 @@ export function Button({
   return (
     <button {...props} className={style}>
       {children}
-      <img src="public/arrow.svg" alt="" />
+      <img src="public/arrow.svg" alt="arrow" />
     </button>
   );
 }

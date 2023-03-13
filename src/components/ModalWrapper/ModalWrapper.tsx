@@ -16,7 +16,7 @@ export const ModalWrapper = ({width, height, children, className, ...props}: Mod
     }
     
     return (
-        <>
+        <div  {...props}>
             <button onClick={() => setShowModal(true)}>Нажать</button>
             {showModal && createPortal(
                 (<div onClick={() => setShowModal(false)}
@@ -26,7 +26,7 @@ export const ModalWrapper = ({width, height, children, className, ...props}: Mod
                     </Card>
                 </div>), document.getElementById("modal")!
             )}
-        </>
+        </div>
     )
 }
 
