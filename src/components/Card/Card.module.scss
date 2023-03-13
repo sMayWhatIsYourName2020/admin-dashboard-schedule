@@ -1,18 +1,22 @@
-.card {
+.Card {
+  background: #fff;
   border-radius: 20px;
-  padding: 25px 25px 40px 25px;
-  box-sizing: border-box;
-  background-color: #fff;
+  padding: 24px;
 }
 
-.card-header {
-  display: flex;
-  justify-content: space-between;
+.HM {
+  height: 359px;
 }
 
-.card-header-info-column {
-
-  .description {
-    margin-bottom: 5px;
-  }
+.HL {
+  height: 742px;
 }
+
+.WM {
+  width: 387px;
+}
+
+.WL {
+  width: 798px;
+}
+

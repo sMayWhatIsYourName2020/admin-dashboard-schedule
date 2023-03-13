@@ -6,9 +6,18 @@
 
 body {
   background-color: #F8F8F8;
-  max-width: 1620px;
-  padding: 150px 15px 0 15px;
-  margin: 0 auto;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+#modal {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
 }
 
 .mb-5 {
@@ -43,3 +52,4 @@ ul, ol {
 li {
   list-style-type: none;
 }
+
