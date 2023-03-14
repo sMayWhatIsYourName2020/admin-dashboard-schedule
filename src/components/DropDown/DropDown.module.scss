@@ -1,7 +1,5 @@
 @import "../../styles/_variables.scss";
 
-
-
 .dropdown {
   cursor: pointer;
   position: relative;
@@ -19,9 +17,6 @@
   max-height: 36px;
 }
 
-
-
-
 .text {
   white-space: nowrap;
 }
@@ -37,9 +32,7 @@
   border-radius: 12px;
   padding: 12px;
   background: $white;
-
 }
-
 
 .item {
   padding: 8px 0;
@@ -47,6 +40,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  white-space: nowrap;
 }
 
 .item:first-child {

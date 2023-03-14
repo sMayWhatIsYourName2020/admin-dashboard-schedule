@@ -5,6 +5,5 @@ export interface DropDownProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivE
         title: string
         list: (string)[]
     }
-    isTitleChangeable?: boolean
 }
 
