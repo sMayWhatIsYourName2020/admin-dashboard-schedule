@@ -16,11 +16,11 @@ export const ModalWrapper = ({width, height, children, className, ...props}: Mod
     }
     
     return (
-        <div  {...props}>
+        <div className={className} {...props}>
             <button onClick={() => setShowModal(true)}>Нажать</button>
             {showModal && createPortal(
                 (<div onClick={() => setShowModal(false)}
-                      className={cn(styles.ModalWrapper, className)}>
+                      className={styles.ModalWrapper}>
                     <Card onClick={(e) => e.stopPropagation()} width={width} height={height}>
                         {children}
                     </Card>

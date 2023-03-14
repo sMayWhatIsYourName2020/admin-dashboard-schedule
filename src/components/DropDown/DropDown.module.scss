@@ -1,0 +1,63 @@
+@import "../../styles/_variables.scss";
+
+
+
+.dropdown {
+  cursor: pointer;
+  position: relative;
+}
+
+.title {
+  display: flex;
+  gap: 8px;
+  padding: 8px 8px 8px 16px;
+  border: 1px solid $lightgrey;
+  border-radius: 12px;
+  background: $white;
+  justify-content: space-between;
+  align-self: center;
+  max-height: 36px;
+}
+
+
+
+
+.text {
+  white-space: nowrap;
+}
+
+.arrowUP {
+  rotate: 180deg;
+}
+
+.list {
+  position: absolute;
+  margin-top: 12px;
+  border: 1px solid $lightgrey;
+  border-radius: 12px;
+  padding: 12px;
+  background: $white;
+
+}
+
+
+.item {
+  padding: 8px 0;
+  border-bottom: 1px solid $lightgrey;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.item:first-child {
+  padding-top: 0;
+}
+
+.item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.hidden {
+  opacity: 0;
+}
